@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/epicluacodes/Zeno-X/refs/heads/main/Main')))()
 
 local Window = OrionLib:MakeWindow({Name = "Zeno X by Epic",
 HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
