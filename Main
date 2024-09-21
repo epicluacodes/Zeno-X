@@ -1,0 +1,22 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Zeno X by Epic",
+HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Player",
+	Icon = "nil",
+	PremiumOnly = false
+})
+
+local Section = PlayerTab:AddSection({
+	Name = "Player"
+})
+
+OrionLib:MakeNotification({
+	Name = "I am gonna suicide <3",
+	Content = "I fucking hate my life, I couldnt get the girl I wanted neither did she even know I existed. Please I wanna die",
+	Image = "rbxassetid://13456246851",
+	Time = 5
+})
+
